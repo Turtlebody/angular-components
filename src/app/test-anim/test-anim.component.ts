@@ -36,4 +36,17 @@ export class TestAnimComponent implements OnInit {
     this.state = this.state === 'active' ? 'inactive' : 'active';
   }
 
+  /*
+  transition('inactive => active', [
+  style({
+    backgroundColor: '#cfd8dc',
+    transform: 'scale(1.3)'
+  }),
+  animate('80ms ease-in', style({
+    backgroundColor: '#eee',
+    transform: 'scale(1)'
+  }))
+])
+  */
+
 }
